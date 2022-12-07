@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background: rgb(149, 144, 227);
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.iphone-todo{
+    width: 370px;
+    position: fixed;
+}
+
+.iphone{ 
+    width: 700px;
+    position: fixed;
+}
+
+/* ------------- to-do ---------------*/
+.camera{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.camera1{
+    width: 40px;
+    height: 12px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.camera2{
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.days{
+    display: flex;
+    width: 93%;
+    height: 60px;
+    padding: 10px;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 50px -17px rgba(66, 68, 90, 1);
+}
+
+.day {
+    width: 40px;
+    text-align: center;
+    margin: 3px;
+    padding: 4px;
+    /* box-shadow: 0px 1px 14px 0px rgba(195, 105, 225, 1); */
+}
+
+.day:hover{
+    border: 1px solid black;
+}
+
+.day-name{
+    font-weight: bold;
+}
+
+.input {
+    width: 310px;
+    height: 632px;
+    margin: 86px;
+    display: flex;
+    margin-left: 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 50px;
+    border: 5px solid black;
+    align-content: center;
+    align-items: center;
+}
+
+h2{
+    margin: 30px 0 20px 0;
+}
+
+h4{
+    padding: 20px;
+}
+
+button{
+    height: 30px;
+    background-color: rgb(205, 125, 221);
+    color: aliceblue;
+}
+
+#add-task-btn{
+    width: 30px;
+}
+#add-task-btn:hover {
+    background: linear-gradient(0deg, rgb(195, 93, 213) 0%, rgb(223, 96, 228) 100%);
+}
+
+.task-list {
+    width: 320px;
+}
+
+#start-message {
+    text-align: center;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(153, 73, 157);
+    padding: 3px 8px;
+    margin: 2px 10px;
+}
+
+.task p {
+    margin-left: 4px;
+}
+
+.completed {
+    background-color: rgb(185, 29, 159);
+    color: white;
+}
+
+.completed p {
+    text-decoration: line-through;
+}
+
+.input-panel {
+    width: 260px;
+    padding: 2px;
+}
+
+.input-panel input {
+    height: 30px;
+    padding-left: 7px;
+    width: 80%;
+}
+
+.sort-panel {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    height: inherit;
+    margin-bottom: 20px;
+}
+#show-all-btn {
+    width: 40px;
+}
+#show-not-completed-btn {
+    width: 150px;
+}
+
+.del_button {
+    width: 25px;
+    height: 25px;
+    background-image: url(./img/delete.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    margin: auto 5px auto auto;
+}
+
+
+#show-all-btn:hover {
+    background: linear-gradient(0deg, rgb(195, 93, 213) 0%, rgb(223, 96, 228) 100%);
+}
+
+#show-not-completed-btn:hover {
+    background: linear-gradient(0deg, rgb(195, 93, 213) 0%, rgb(223, 96, 228) 100%);
+}
